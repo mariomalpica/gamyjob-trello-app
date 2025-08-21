@@ -1,0 +1,33 @@
+{
+  "name": "gamyjob-trello-app",
+  "version": "1.0.0",
+  "description": "GamyJob Trello Clone - Advanced project management with gamification",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3001 -c-1",
+    "dev": "http-server -p 3001 -c-1 -o",
+    "build": "echo 'Static build complete'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "trello",
+    "project-management",
+    "kanban",
+    "gamification",
+    "react",
+    "javascript"
+  ],
+  "author": "FOI Technologies, S.A. de C.V.",
+  "license": "MIT",
+  "homepage": "https://gamyjob-trello.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariomalpica/gamyjob-trello-app.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
